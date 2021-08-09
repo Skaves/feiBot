@@ -1,0 +1,70 @@
+{
+    "service": "\u5c0f\u7a0b\u5e8f\u5904\u7406",
+    "docs": "\n\u5565b\u817e\u8baf\u5c0f\u7a0b\u5e8f\u7ed9\ud83d\udc74\u722a\u5df4\n\u76ee\u524d\u53ea\u6574\u4e86b\u7ad9\u7684\n",
+    "cmd_list": {
+        "message0": {
+            "type": "message0",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message1": {
+            "type": "message1",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message2": {
+            "type": "message2",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message3": {
+            "type": "message3",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message4": {
+            "type": "message4",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message5": {
+            "type": "message5",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message6": {
+            "type": "message6",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message7": {
+            "type": "message7",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message8": {
+            "type": "message8",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message9": {
+            "type": "message9",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message10": {
+            "type": "message10",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        },
+        "message11": {
+            "type": "message11",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
+        }
+    },
+    "enabled": true,
+    "only_admin": false,
+    "disable_user": [],
+    "disable_group": []
+}

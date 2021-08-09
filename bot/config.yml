@@ -1,0 +1,12 @@
+BotSelfConfig:
+  host: "127.0.0.1"
+  port: 8080
+  debug: false
+  superusers: ["285245435"]
+  nickname: ["晚晚", "晚宝", "月月"]
+  command_start: ["", "/"]
+  command_sep: ["."]
+  session_expire_timeout: 60
+
+SauceNAO:
+  key: ""

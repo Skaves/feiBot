@@ -1,0 +1,6 @@
+{
+    "track_id": "PG8IEdZt",
+    "prompt": "Unknown ERROR->TypeError",
+    "time": "2021-08-04 10:31:00",
+    "content": "Traceback (most recent call last):\n  File \"D:\\feiBot\\bot\\.\\src\\exceptions.py\", line 103, in _track_error\n    raise exception\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\message.py\", line 154, in _run_matcher\n    await matcher.run(bot, event, state)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\matcher.py\", line 544, in run\n    await handler(self, bot, event, state_)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\handler.py\", line 81, in __call__\n    await self.func(\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\matcher.py\", line 427, in wrapper\n    await func_handler(matcher, bot, event, state)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\handler.py\", line 81, in __call__\n    await self.func(\n  File \"D:\\feiBot\\bot\\src/plugins\\query\\__init__.py\", line 53, in _deal_add\n    result = f\"> {MessageSegment.at(user_id)}\" + await a.add(img[0])\nTypeError: can only concatenate str (not \"int\") to str\n"
+}

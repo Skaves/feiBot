@@ -1,0 +1,33 @@
+{
+    "service": "\u6dfb\u52a0\u56fe\u7247",
+    "docs": "\n\u6dfb\u52a0\u56fe\u7247\uff01\u81ea\u5b9a\u4e49\u67e5\u8be2\uff01\n",
+    "cmd_list": {
+        "\u65b0\u589e\u56fe\u7247": {
+            "type": "command",
+            "docs": "\u6dfb\u52a0\u4e00\u5f20\u56fe\u7247\u5230\u6570\u636e\u5e93",
+            "aliases": [
+                "\u6dfb\u52a0\u56fe\u7247",
+                "\u589e\u52a0\u56fe\u7247"
+            ]
+        },
+        "\u67e5\u8be2\u56fe\u7247": {
+            "type": "command",
+            "docs": "\u67e5\u8be2\u6570\u636e\u5e93\u4e2d\u7684\u56fe\u7247",
+            "aliases": [
+                "\u67e5",
+                "Q",
+                "q",
+                "\u67e5\u56fe"
+            ]
+        },
+        "\u5220\u9664\u56fe\u7247": {
+            "type": "command",
+            "docs": "\u6dfb\u52a0\u4e00\u5f20\u56fe\u7247\u5230\u6570\u636e\u5e93",
+            "aliases": []
+        }
+    },
+    "enabled": true,
+    "only_admin": false,
+    "disable_user": [],
+    "disable_group": []
+}
