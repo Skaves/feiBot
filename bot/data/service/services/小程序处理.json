@@ -61,6 +61,11 @@
             "type": "message11",
             "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
             "aliases": []
+        },
+        "message12": {
+            "type": "message12",
+            "docs": "\u5c0f\u7a0b\u5e8f\u722a\u5df4",
+            "aliases": []
         }
     },
     "enabled": true,

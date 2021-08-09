@@ -6,10 +6,10 @@
             "type": "command",
             "docs": "\u67e5\u8be2\u6570\u636e\u5e93\u4e2d\u7684\u56fe\u7247",
             "aliases": [
-                "Q",
-                "\u67e5\u56fe",
                 "\u67e5",
-                "q"
+                "\u67e5\u56fe",
+                "q",
+                "Q"
             ]
         }
     },

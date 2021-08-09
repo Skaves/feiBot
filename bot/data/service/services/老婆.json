@@ -16,9 +16,9 @@
             "type": "command",
             "docs": "\u547c\u5524\u8001\u5a46/\u8001\u516c\uff01",
             "aliases": [
+                "\u8001\u516c",
                 "\u8001\u516c\uff01",
-                "\u8001\u5a46\uff01",
-                "\u8001\u516c"
+                "\u8001\u5a46\uff01"
             ]
         },
         "\u6211\u8981\u79bb\u5a5a": {
@@ -68,6 +68,11 @@
         },
         "message9": {
             "type": "message9",
+            "docs": "\u53ea\u4e0e\u7ef4\u62a4\u8005\u8d34\u8d34w",
+            "aliases": []
+        },
+        "message10": {
+            "type": "message10",
             "docs": "\u53ea\u4e0e\u7ef4\u62a4\u8005\u8d34\u8d34w",
             "aliases": []
         }

@@ -6,13 +6,13 @@
             "type": "command",
             "docs": "\u6765\u5f20\u968f\u673a\u6da9\u56fe\uff0c\u51b7\u53742\u5206\u949f\uff0c\u6bcf\u5929\u96505\u5f20",
             "aliases": [
-                "\u6765\u70b9\u8272\u56fe",
-                "\u8272\u56fe\u6765",
                 "\u6da9\u56fe\u6765",
-                "\u6765\u70b9\u8272\u7684",
-                "\u6765\u70b9\u6da9\u56fe",
                 "\u6765\u4efd\u6da9\u56fe",
+                "\u6765\u70b9\u6da9\u56fe",
+                "\u8272\u56fe\u6765",
+                "\u6765\u70b9\u8272\u56fe",
                 "\u6765\u5f20\u8272\u56fe",
+                "\u6765\u70b9\u8272\u7684",
                 "\u6765\u70b9\u6da9\u7684"
             ]
         },
