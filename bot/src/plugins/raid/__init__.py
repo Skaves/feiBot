@@ -3,12 +3,14 @@ import asyncio
 import os
 from random import choice
 from nonebot.adapters.cqhttp import Bot, MessageEvent,Message,MessageSegment
+from nonebot.adapters.cqhttp import GROUP_ADMIN, GROUP_OWNER
+from nonebot.permission import SUPERUSER
 
 from .data_source import Tuan
 
 
 kaituan = Tuan().on_command(
-    "开团",  "打团啦", aliases={"开团了","打团了"}
+    "开团",  "打团啦", aliases={"开团了","打团了"}, permission=SUPERUSER|GROUP_ADMIN|GROUP_OWNER
 )
 
 
@@ -19,14 +21,14 @@ async def _kaituan(bot: Bot, event: MessageEvent):
     if pic == -1 or li == -1:
         await kaituan.finish('error.')
     pic = os.path.join(r'file:///D:/feiBot/bot/pics',pic)
-    await kaituan.send(MessageSegment.image(pic))
-    aite = "开团了，"
-    for i in li:
-        aite += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
-    await kaituan.finish(Message(aite))
+    await kaituan.finish(MessageSegment.image(pic))
+    # aite = "开团了，"
+    # for i in li:
+    #     aite += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
+    # await kaituan.finish(Message(aite))
 
 
-wave = Tuan().on_regex(r"第(.*?)波", "发送名单并艾特")
+wave = Tuan().on_regex(r"第(.*?)波", "发送名单并艾特", permission=SUPERUSER|GROUP_ADMIN|GROUP_OWNER)
 common_used_numerals ={'零':0, '一':1, '二':2, '两':2, '三':3, '四':4, '五':5, '六':6, '七':7, '八':8, '九':9, '十':10}
 
 @wave.handle()
@@ -58,6 +60,17 @@ async def _wave_tuan(bot: Bot, event: MessageEvent):
         wv = total
     li = await Tuan.singlewave(str(wv))
     aite = "第"+str(wv)+"波了，"
+    hong = ""
+    huang = ""
+    lv = ""
     for i in li:
-        aite += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
+        if i.team=="红":
+            hong += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
+        elif i.team=="黄":
+            huang += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
+        elif i.team=="绿":
+            lv += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
+        else:
+            pass
+    aite += "红队："+hong+"黄队："+huang+"绿队："+lv
     await kaituan.finish(Message(aite))

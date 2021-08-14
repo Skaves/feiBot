@@ -6,8 +6,8 @@
             "type": "command",
             "docs": "\u83b7\u53d6\u98df\u7528bot\u7684\u65b9\u6cd5",
             "aliases": [
-                "menu",
-                "/help"
+                "/help",
+                "menu"
             ]
         },
         "\u5173\u4e8e": {

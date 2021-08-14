@@ -1,0 +1,6 @@
+{
+    "track_id": "wsBhmbL3",
+    "prompt": "Unknown ERROR->UnboundLocalError",
+    "time": "2021-08-14 12:06:19",
+    "content": "Traceback (most recent call last):\n  File \"D:\\feiBot\\bot\\.\\src\\exceptions.py\", line 103, in _track_error\n    raise exception\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\message.py\", line 154, in _run_matcher\n    await matcher.run(bot, event, state)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\matcher.py\", line 544, in run\n    await handler(self, bot, event, state_)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\handler.py\", line 81, in __call__\n    await self.func(\n  File \"D:\\feiBot\\bot\\src/plugins\\myraid\\__init__.py\", line 21, in _kantuan\n    aite += \"\u7b2c\"+str(i.wave)+\"\u6ce2\"+i.team+\"\u961f\"+\"\u6765\"+str(i.role)+\"   \"\nUnboundLocalError: local variable 'aite' referenced before assignment\n"
+}

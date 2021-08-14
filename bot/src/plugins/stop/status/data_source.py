@@ -40,7 +40,7 @@ class IsSurvive(Service):
         except GetStatusError:
             raise GetStatusError("Failed to get status.")
 
-        msg = "アトリは、高性能ですから！"
+        msg = "晚晚は、高性能ですから！"
         if cpu > 90:  # type: ignore
             msg = "咱感觉有些头晕..."
             is_ok = False

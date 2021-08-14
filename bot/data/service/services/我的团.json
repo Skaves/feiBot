@@ -1,0 +1,17 @@
+{
+    "service": "\u6211\u7684\u56e2",
+    "docs": "gkd!",
+    "cmd_list": {
+        "\u770b\u770b\u6211\u7684\u653b\u575a\u5b89\u6392": {
+            "type": "command",
+            "docs": "\u53d1\u8a00\u8005\u7684\u653b\u575a\u8868",
+            "aliases": [
+                "\u6211\u600e\u4e48\u5b89\u6392"
+            ]
+        }
+    },
+    "enabled": true,
+    "only_admin": false,
+    "disable_user": [],
+    "disable_group": []
+}

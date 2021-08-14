@@ -12,7 +12,7 @@ from nonebot.adapters.cqhttp.permission import GROUP_OWNER, GROUP_ADMIN
 from .data_source import Querypic
 
 
-querypic = Querypic().on_command("查询图片", "查询数据库中的图片", aliases={"查图","查","q","Q"})
+querypic = Querypic().on_command("查询图片", "查询数据库中的图片", aliases={"查图","查询"})
 
 
 @querypic.args_parser  # type: ignore
