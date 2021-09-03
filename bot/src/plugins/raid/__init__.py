@@ -28,14 +28,14 @@ async def _kaituan(bot: Bot, event: MessageEvent):
     # await kaituan.finish(Message(aite))
 
 
-wave = Tuan().on_regex(r"第(.*?)波", "发送名单并艾特", permission=SUPERUSER|GROUP_ADMIN|GROUP_OWNER)
+wave = Tuan().on_regex(r"机器人第(.*?)波", "发送名单并艾特")
 common_used_numerals ={'零':0, '一':1, '二':2, '两':2, '三':3, '四':4, '五':5, '六':6, '七':7, '八':8, '九':9, '十':10}
 
 @wave.handle()
 async def _wave_tuan(bot: Bot, event: MessageEvent):
 
     msg = str(event.message).strip()
-    pattern = r"第(.*?)波"
+    pattern = r"机器人第(.*?)波"
     wv = re.findall(pattern, msg)[0]
     try:
         wv = int(wv)

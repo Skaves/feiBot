@@ -15,6 +15,10 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+// import axios from 'axios'
+
+// import { getToken } from '@/utils/auth'
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api
@@ -34,6 +38,60 @@ Vue.use(ElementUI, { locale })
 // Vue.use(ElementUI)
 
 Vue.config.productionTip = false
+
+// axios.interceptors.request.use((packet) => {
+//     console.log('test')
+//   var token = getToken()
+//   if (token) {
+//     packet.headers.Authorization = token
+//   }
+//   return packet
+// }, (error) => {
+//   if (error.response) {
+//     return Promise.reject(error)
+//   }
+// })
+
+// axios.interceptors.response.use(
+//   res => {
+//     // loadingInstance && loadingInstance.close();
+//     // loading close...
+//     console.log(res)
+//     const status = res.status
+//     if (status === 401) {
+//       console.log('token expired')
+//       window.location.reload()
+//     } else {
+//       return res
+//     }
+//   }
+//   // error => {
+//   //   // loading close...
+//   //   // loadingInstance && loadingInstance.close();
+//   //   if (error) {
+//   //     // 请求配置发生的错误
+//   //     if (!error.response) {
+//   //       return console.log('Error', error.message);
+//   //     }
+//   //     // 获取状态码
+//   //     const status = error.response.status;
+//   //     // 提示错误信息
+//   //     Vue.prototype.$message({
+//   //       message: '错误',
+//   //       type: "error"
+//   //     });
+//   //     // 错误状态处理
+//   //     if (status === 401) {
+//   //       router.push('/login')
+//   //     } else if (status === 403) {
+//   //       router.push('/login')
+//   //     } else if (status >= 404 && status < 422) {
+//   //       router.push('/404')
+//   //     }
+//   //   }
+//   //   return Promise.reject(error);
+//   // }
+// )
 
 new Vue({
   el: '#app',
