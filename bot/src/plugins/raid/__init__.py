@@ -10,7 +10,7 @@ from .data_source import Tuan
 
 
 kaituan = Tuan().on_command(
-    "开团",  "打团啦", aliases={"开团了","打团了"}, permission=SUPERUSER|GROUP_ADMIN|GROUP_OWNER
+    "开团",  "打团啦", aliases={"开团了","打团了"}
 )
 
 
@@ -72,5 +72,5 @@ async def _wave_tuan(bot: Bot, event: MessageEvent):
             lv += f"{MessageSegment.at(i.qq)}"+"来"+str(i.role)+"   "
         else:
             pass
-    aite += "红队："+hong+"黄队："+huang+"绿队："+lv
+    aite += "【红队："+hong+"】【黄队："+huang+"】【绿队："+lv+'】'
     await kaituan.finish(Message(aite))

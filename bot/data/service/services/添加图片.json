@@ -6,8 +6,8 @@
             "type": "command",
             "docs": "\u6dfb\u52a0\u4e00\u5f20\u56fe\u7247\u5230\u6570\u636e\u5e93",
             "aliases": [
-                "\u589e\u52a0\u56fe\u7247",
-                "\u6dfb\u52a0\u56fe\u7247"
+                "\u6dfb\u52a0\u56fe\u7247",
+                "\u589e\u52a0\u56fe\u7247"
             ]
         },
         "\u67e5\u8be2\u56fe\u7247": {

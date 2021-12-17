@@ -1,0 +1,6 @@
+{
+    "track_id": "AmhCvGWf",
+    "prompt": "Unknown ERROR->TypeError",
+    "time": "2021-09-19 20:40:35",
+    "content": "Traceback (most recent call last):\n  File \"D:\\feiBot\\bot\\src/plugins\\raid\\__init__.py\", line 41, in _wave_tuan\n    wv = int(wv)\nValueError: invalid literal for int() with base 10: '\u51e0'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\feiBot\\bot\\.\\src\\exceptions.py\", line 103, in _track_error\n    raise exception\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\message.py\", line 154, in _run_matcher\n    await matcher.run(bot, event, state)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\matcher.py\", line 544, in run\n    await handler(self, bot, event, state_)\n  File \"c:\\users\\hasee\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\nonebot\\handler.py\", line 81, in __call__\n    await self.func(\n  File \"D:\\feiBot\\bot\\src/plugins\\raid\\__init__.py\", line 47, in _wave_tuan\n    if val >= 10 and i == 0:  #\u5e94\u5bf9 \u5341\u4e09 \u5341\u56db \u5341*\u4e4b\u7c7b\nTypeError: '>=' not supported between instances of 'NoneType' and 'int'\n"
+}

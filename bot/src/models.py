@@ -35,4 +35,10 @@ class RAID(Base):
     role = Column(String(255))
 
 
+class DOG(Base):
+    __tablename__ = 'dog'
+
+    name = Column(String(255), primary_key=True)
+    num = Column(Integer)
+
 

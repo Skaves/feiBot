@@ -1,0 +1,15 @@
+{
+    "service": "test",
+    "docs": "cs",
+    "cmd_list": {
+        "test": {
+            "type": "command",
+            "docs": "\u6d4b\u8bd5",
+            "aliases": []
+        }
+    },
+    "enabled": true,
+    "only_admin": false,
+    "disable_user": [],
+    "disable_group": []
+}
